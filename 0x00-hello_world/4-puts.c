@@ -1,8 +1,10 @@
 #include <stdio.h>
+/*
+ * main - A program that prints a string
+ * Return 0 (success)
+ */
 
-/* The main function prints a string using the puts function*/
-
-int main(void)/* The main function prints a string using the puts function*/
+int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
 
