@@ -2,7 +2,7 @@
 
 /* The main function prints a string using the puts function*/
 
-int main(void)
+int main(void)/* The main function prints a string using the puts function*/
 {
 	puts("\"Programming is like building a multilingual puzzle");
 
