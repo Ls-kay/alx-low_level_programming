@@ -2,7 +2,7 @@
 /**
  * main - A program that prints a string
  *
- * Return 0 (success)
+ * Return: Always 0 indicates success
  */
 
 int main(void)
