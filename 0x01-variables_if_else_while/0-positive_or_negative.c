@@ -2,8 +2,6 @@
 #include <time.h>
 /* more headers goes there */
 #include <stdio.h>
-
-/* betty style doc for function main goes there */
 /**
  *
  * main - A program that makes choices
@@ -11,6 +9,8 @@
  * Return - Always 0 indicates success
  *
  */
+/* betty style doc for function main goes there */
+
 int main(void)
 {
 	int n;
@@ -21,15 +21,15 @@ int main(void)
 
 	if (n > 0)
 	{
-		printf(" %d is positive", n);
+		printf("%d is positive ", n);
 	}
 	else if (n < 0)
 	{
-		printf(" %d is negative", n);
+		printf("%d is negative ", n);
 	}
 	else
 	{
-		printf(" %d  is zero", n);
+		printf("%d is zero ", n);
 	}
 
 	return (0);
