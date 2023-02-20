@@ -6,7 +6,7 @@
  *
  * Description: 'A program that makes choices'
  *
- * Return - Always 0 indicates success
+ * Return:  Always 0 indicates success
  *
  */
 int main(void)
