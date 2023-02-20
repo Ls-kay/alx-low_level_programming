@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * Main - A program that makes choices
+ * main - A program that makes choices
  *
  * Return - Always 0 indicates success
  *
