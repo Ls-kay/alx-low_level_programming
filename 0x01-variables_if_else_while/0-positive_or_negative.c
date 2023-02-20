@@ -4,8 +4,8 @@
 /**
  * main - Entry point
  *
- * Description: A program that makes choices
- * 
+ * Description: 'A program that makes choices'
+ *
  * Return - Always 0 indicates success
  *
  */
