@@ -12,7 +12,7 @@ int mul(int a, int b)
 {
 	int prod;
 
-	/*scanf("%d %d", &a, &b);*/
+	scanf("%d %d", &a, &b);
 
 	prod  = a * b;
 	
