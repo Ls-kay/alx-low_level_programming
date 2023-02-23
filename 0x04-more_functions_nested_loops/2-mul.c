@@ -3,7 +3,8 @@
 /**
  * mul - multiplies integers together
  *
- * @a, @b: The ASCII code
+ * @a: The ASCII code
+ * @b: The ASCII code
  *
  * Return: Always 0 (success)
  */
