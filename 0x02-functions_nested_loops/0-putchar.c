@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <string.h>
+#include "main.h"
 /**
  * main - A program that printss putchar
  *
@@ -9,13 +8,13 @@
 
 int main(void)
 {
-	char ch[10] = "_putchar";
-
-	for (size_t i = 0; i < strlen(ch); i++)
-	{
-		putchar(ch[i]);
-		printf("\n");
-	}
-
+	_putchar("p");
+	_putchar("u");
+	_putchar("t");
+	_putchar("c");
+	_putchar("h");
+	_putchar("a");
+	_putchar("r");
+	_putchar("\n");
 	return (0);
 }
