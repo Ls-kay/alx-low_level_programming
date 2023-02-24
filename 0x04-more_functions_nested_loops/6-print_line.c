@@ -12,7 +12,7 @@ void print_line(int n)
 
 	if (n > 0)
 	{
-		_putchar(p);
+		_putchar(p * n);
 		_putchar('\n');
 	}
 	else if (n == 0)
