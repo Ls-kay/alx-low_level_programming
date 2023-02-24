@@ -11,14 +11,7 @@
 
 int mul(int a, int b)
 {
-	int prod;
-
-	scanf("%d %d", &a, &b);
-
-	prod  = a * b;
-
-	_putchar(prod);
 	_putchar('\n');
 
-	return (0);
+	return (a * b);
 }
