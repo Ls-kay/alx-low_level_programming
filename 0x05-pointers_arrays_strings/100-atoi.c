@@ -37,5 +37,7 @@ int _atoi(char *s)
 		i++;
 	}
 
+	ni *= min;
+
 	return (ni);
 }
