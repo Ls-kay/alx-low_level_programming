@@ -9,10 +9,18 @@
 
 void puts2(char *str)
 {
-	/*int i;*/
+	int i;
+	int j = 0;
 
-	/*for (i = 0; i < *str; i++)*/
-	/*{*/
-		puts(str);
-	/*}*/
+	for (i = 0; i < *str; i++)
+	{
+		if (str[j] != '\0')
+		{
+			j++;
+		}
+		else
+		{
+			_putchar(str[i]);
+		}
+	}
 }
