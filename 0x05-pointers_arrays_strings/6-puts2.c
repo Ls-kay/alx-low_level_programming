@@ -13,6 +13,6 @@ void puts2(char *str)
 
 	/*for (i = 0; i < *str; i++)*/
 	/*{*/
-		puts(str[i]);
+		puts(str);
 	/*}*/
 }
