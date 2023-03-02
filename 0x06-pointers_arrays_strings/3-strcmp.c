@@ -1,37 +1,21 @@
 #include "main.h"
-#include <string.h>
-#include <stdio.h>
 /**
- * _strncmp - Concatinates strings
+ * _strcmp - Compare strings
  *
- * @s1: Destination string
+ * @s1: string
  *
- * @s2: Source string
+ * @s2: string
  *
- * @n: Max number of characters appended
- *
- * Return: Destination string
+ * Return: result
  *
  */
 
-char *_strncmp(char *s1, char *s2)
+int _strcmp(char *s1, char *s2)
 {
-	int n;
+	int i = 0;
 
-	value = strncmp(s1, s2, n);
+	while ((s1[i] - s2[i] == 0) && (s1[i] != '\0'))
+		i++;
 
-	if (value == 0)
-	{
-		puts("%s is same as %s", s1, s2);
-	}
-	else if (value > 0)
-	{
-		puts("%s is greater than %s", s1, s2);
-	}
-	else
-	{
-		puts("%s is less than %s", s1, s2);
-	}
-	
-	return (0);
+	return (s1[i] - s2[i]);
 }
